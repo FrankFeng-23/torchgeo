@@ -271,7 +271,7 @@ class Tessera(nn.Module):
 
         Args:
             x: Input tensor of shape (B, seq_len, 14) containing:
-            
+
                 - Channels 0-9: Sentinel-2 bands in Tessera's training order
                   ``[B4, B2, B3, B8, B8A, B5, B6, B7, B11, B12]`` (i.e.
                   red, blue, green, nir, nir08, rededge1, rededge2, rededge3,
